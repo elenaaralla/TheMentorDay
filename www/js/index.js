@@ -45,5 +45,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+    vibrate: function() {
+      navigator.notification.vibrate( 1000 );
     }
 };
