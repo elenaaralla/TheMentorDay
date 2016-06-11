@@ -96,6 +96,14 @@ h1 {
     display:block;	
 }
 
+button
+{
+	border-radius:50px;
+    -webkit-border-radius:50px;
+	padding: 10px;
+    background-color:pink;
+}
+
 .event.listening {
     background-color:#333333;
     display:block;
